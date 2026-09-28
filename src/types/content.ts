@@ -4,9 +4,11 @@ export interface Project {
   title: string;
   slug: string;
   summary: string;
+  description?: string;
   company?: string;
   year: string;
   role: string;
   technologies: string[];
+  url?: string;
   featured?: boolean;
 }
