@@ -6,16 +6,18 @@ export const fallbackProjects: Project[] = [
     title: "Kings Education",
     slug: "kings-education",
     summary:
-      "Web platform engineering across MODX, PHP, JavaScript and Sass, alongside internal development tooling, database diagnostics and ongoing platform modernisation.",
+      "Software development across a portfolio of MODX-powered education websites and a Laravel SmartHub portal used by agents and schools. Work spans PHP, MySQL, JavaScript, frontend modernisation, APIs, document generation and ongoing platform development.",
     company: "Kings Education",
     year: "2023–Present",
     role: "Software Developer",
     technologies: [
       "PHP",
       "MODX",
+      "Laravel",
       "MySQL",
       "JavaScript",
       "Sass",
+      "REST APIs",
       "mPDF",
     ],
     featured: true,
@@ -26,15 +28,16 @@ export const fallbackProjects: Project[] = [
     title: "MODX Web Monitor",
     slug: "modx-web-monitor",
     summary:
-      "A suite of PHP diagnostic and monitoring tools for interrogating MODX installations, analysing database queries, inspecting configuration and resources, and investigating performance issues.",
+      "An internal suite of PHP diagnostic tools for investigating MODX installations, interrogating databases, analysing SQL queries, inspecting resources and configuration, and identifying performance and content issues across multiple production websites.",
     year: "2024–Present",
-    role: "Internal tooling & platform engineering",
+    role: "Internal Tooling & Platform Engineering",
     technologies: [
       "PHP",
       "MODX",
       "MySQL",
       "SQL",
       "PDO",
+      "REST APIs",
       "Performance Analysis",
       "Database Diagnostics",
     ],
@@ -46,7 +49,7 @@ export const fallbackProjects: Project[] = [
     title: "Custom Web Platforms",
     slug: "custom-web-platforms",
     summary:
-      "Custom marketing websites, CMS platforms and web applications developed across traditional, headless and JAMstack architectures, selecting frontend, backend and content technologies around the requirements of each project.",
+      "A body of commercial web development work spanning bespoke websites, CMS platforms and web applications. Projects have used traditional server-rendered architectures, headless CMS, JAMstack and modern JavaScript frameworks, with technology selected around the requirements of each platform.",
     year: "2015–Present",
     role: "Web Development & Platform Engineering",
     technologies: [
@@ -76,7 +79,7 @@ export const fallbackProjects: Project[] = [
     title: "Ecommerce Starter",
     slug: "ecommerce-starter",
     summary:
-      "A modular full-stack foundation for ecommerce and marketing platforms, designed around interchangeable frontend and backend architectures.",
+      "A modular full-stack foundation for ecommerce and marketing platforms, designed to support different frontend and backend architectures without locking projects into a single technology stack.",
     year: "2026",
     role: "Full-stack Development",
     technologies: [
@@ -91,7 +94,7 @@ export const fallbackProjects: Project[] = [
       ".NET",
       "C#",
       "MySQL",
-      "REST API",
+      "REST APIs",
       "JWT",
       "Docker",
     ],
@@ -103,7 +106,7 @@ export const fallbackProjects: Project[] = [
     title: "Website CMS",
     slug: "website-cms",
     summary:
-      "A reusable white-label CMS platform combining a React frontend with a Node.js and MySQL backend, designed as a foundation for content-driven marketing websites.",
+      "A reusable white-label CMS platform combining a React frontend with a Node.js and MySQL backend, providing a configurable foundation for content-driven marketing websites.",
     year: "2026",
     role: "Full-stack Development",
     technologies: [
@@ -123,7 +126,7 @@ export const fallbackProjects: Project[] = [
     title: "Veritas Security Monitor",
     slug: "veritas-security-monitor",
     summary:
-      "A React-based monitoring and reporting application exploring structured data collection, API integration and security-oriented workflows.",
+      "A React-based monitoring and reporting application exploring structured data collection, API integration, event-driven interfaces and security-oriented workflows.",
     year: "2026",
     role: "Full-stack Development",
     technologies: [
