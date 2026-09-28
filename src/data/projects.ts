@@ -32,18 +32,7 @@ export const fallbackProjects: Project[] = [
   ],
   featured: true,
 },
-  {
-    _id: "state-of-mind",
-    title: "State of Mind",
-    slug: "state-of-mind",
-    summary:
-      "A journal and calendar application exploring structured personal reflection and data-driven UI.",
-    year: "2026",
-    role: "Full-stack development",
-    technologies: ["React", "Vite", "TanStack", "TypeScript"],
-    featured: true,
-  },
-  {
+{
     _id: "veritas",
     title: "Veritas Security Monitor",
     slug: "veritas-security-monitor",
@@ -97,6 +86,17 @@ export const fallbackProjects: Project[] = [
         "JWT",
         "Docker",
     ],
+    featured: true,
+  },
+    {
+    _id: "state-of-mind",
+    title: "State of Mind",
+    slug: "state-of-mind",
+    summary:
+      "A journal and calendar application exploring structured personal reflection and data-driven UI.",
+    year: "2026",
+    role: "Full-stack development",
+    technologies: ["React", "Vite", "TanStack", "TypeScript"],
     featured: true,
   },
   {
