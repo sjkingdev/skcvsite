@@ -1,1 +1,36 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><meta name="description" content="Sean King — software developer specialising in PHP, Laravel, MODX, React, TypeScript and APIs."/><title>Sean King — Software Developer</title></head><body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description"
+        content="Sean King — software developer specialising in PHP, Laravel, MODX, React, TypeScript and APIs." />
+    <title>Sean King — Software Developer</title>
+</head>
+
+<body>
+
+    <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        hidden
+    >
+        <input type="hidden" name="form-name" value="contact" />
+
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="text" name="subject" />
+        <textarea name="message"></textarea>
+        <input type="text" name="bot-field" />
+    </form>
+
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.tsx"></script>
+
+</body>
+
+</html>
