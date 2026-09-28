@@ -13,6 +13,26 @@ export const fallbackProjects: Project[] = [
     featured: true,
   },
   {
+  _id: "modx-web-monitor",
+  title: "MODX Web Monitor",
+  slug: "modx-web-monitor",
+  summary:
+    "A suite of PHP diagnostic and monitoring tools built to interrogate MODX installations, analyse database queries and identify performance, configuration and content issues across complex web platforms.",
+  year: "2024–Present",
+  role: "Internal tooling & platform engineering",
+  technologies: [
+    "PHP",
+    "MODX",
+    "MySQL",
+    "SQL",
+    "PDO",
+    "REST APIs",
+    "Performance Monitoring",
+    "Database Diagnostics",
+  ],
+  featured: true,
+},
+  {
     _id: "state-of-mind",
     title: "State of Mind",
     slug: "state-of-mind",
