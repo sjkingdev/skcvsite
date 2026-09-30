@@ -14,7 +14,7 @@ export function Layout() {
               Work
             </Link>
 
-            <div className="nav-dropdown">
+            {/* <div className="nav-dropdown">
               <button
                 type="button"
                 className="nav-dropdown__trigger"
@@ -23,13 +23,13 @@ export function Layout() {
                 Work <span>↓</span>
               </button>
 
-              {/* <div className="nav-dropdown__menu">
+              <div className="nav-dropdown__menu">
                 <Link to="/work">All Work</Link>
                 <Link to="/atfs">Landing Pages</Link>
                 <Link to="/logo">Logofolio</Link>
                 <Link to="/web">Websites</Link>
-              </div> */}
-            </div>
+              </div>
+            </div> */}
 
             <Link to="/about">About</Link>
             <Link to="/technical">Technical</Link>
