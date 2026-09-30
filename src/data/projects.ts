@@ -172,4 +172,22 @@ export const fallbackProjects: Project[] = [
     ],
     featured: false,
   },
+
+    {
+    _id: "pinboard",
+    title: "Pinboard",
+    slug: "pinboard",
+    summary:
+      "A property map tracker where you can pin your searches, write notes and upload your pictures from viewings",
+    year: "2026",
+    role: "Full-stack Development",
+    technologies: [
+      "React",
+      "Node",
+      "Express",
+      "Vite",
+      "MySQL",
+    ],
+    featured: false,
+  },
 ];
