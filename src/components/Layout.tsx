@@ -23,12 +23,12 @@ export function Layout() {
                 Work <span>↓</span>
               </button>
 
-              <div className="nav-dropdown__menu">
+              {/* <div className="nav-dropdown__menu">
                 <Link to="/work">All Work</Link>
                 <Link to="/atfs">Landing Pages</Link>
                 <Link to="/logo">Logofolio</Link>
                 <Link to="/web">Websites</Link>
-              </div>
+              </div> */}
             </div>
 
             <Link to="/about">About</Link>
