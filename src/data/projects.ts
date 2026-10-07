@@ -193,23 +193,22 @@ export const fallbackProjects: Project[] = [
   featured: false,
 },
   {
-  _id: "pindrop",
-  title: "Pindrop",
-  slug: "pindrop",
-  summary:
-    "A house-hunting tracker where properties are pinned on an interactive map, each with notes, photos and a link back to the Rightmove or Zoopla listing.",
-  year: "2026",
-  role: "Full-stack Development",
-  technologies: [
-    "React",
-    "TanStack Query",
-    "Sass",
-    "Node.js",
-    "Express",
-    "MySQL",
-    "JWT",
-    "Leaflet",
-  ],
-  featured: false,
-}
+    _id: "optik-nerve",
+    title: "Optik Nerve",
+    slug: "optik-nerve",
+    summary:
+      "Optik Nerve: A full-stack photo gallery and album application for uploading, organising and browsing images, built on a React frontend with a Node.js and MySQL backend.",
+    year: "2026",
+    role: "Full-stack Development",
+    technologies: [
+      "React",
+      "Vite",
+      "TanStack",
+      "Sass",
+      "Node.js",
+      "Express",
+      "MySQL",
+    ],
+    featured: false,
+  },
 ];
