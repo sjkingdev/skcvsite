@@ -23,9 +23,9 @@ export function Home() {
           <Link to="/work" className="button button--primary">
             View work
           </Link>
-          <Link to="/cv" className="button">
+          {/* <Link to="/cv" className="button">
             View CV
-          </Link>
+          </Link> */}
         </div>
       </section>
       <section className="section container">
