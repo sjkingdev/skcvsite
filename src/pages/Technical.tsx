@@ -4,10 +4,13 @@ const groups = {
     "TypeScript",
     "JavaScript",
     "Vite",
+    "Next.js",
+    "Vue",
     "TanStack",
     "HTML",
     "CSS / Sass",
   ],
+
   Backend: [
     "PHP",
     "Laravel",
@@ -15,13 +18,45 @@ const groups = {
     "Express",
     "Python",
     "FastAPI",
-    "Flask",
     "Django",
+    "Ruby",
+    "Sinatra",
+    ".NET",
+    "C#",
   ],
-  Platforms: ["MODX", "WordPress", "Sanity"],
-  Data: ["MySQL", "SQL", "SQLite"],
-  Engineering: ["Git", "Docker", "REST APIs", "JWT", "CLI tooling", "CI/CD"],
+
+  "CMS / Platforms": [
+    "MODX",
+    "WordPress",
+    "Sanity",
+    "Headless CMS",
+    "JAMstack",
+  ],
+
+  Data: [
+    "MySQL",
+    "SQL",
+    "SQLite",
+    "PDO",
+    "SQLAlchemy",
+    "Sequel",
+  ],
+
+  Engineering: [
+    "Git",
+    "Docker",
+    "REST APIs",
+    "JWT",
+    "CLI tooling",
+    "CI/CD",
+  ],
+
+  "Libraries / Tools": [
+    "Leaflet",
+    "mPDF",
+  ],
 };
+
 export function Technical() {
   return (
     <div className="container page">
@@ -29,6 +64,7 @@ export function Technical() {
         <p className="eyebrow">TECHNICAL</p>
         <h1>Tools and technologies I work with.</h1>
       </div>
+
       <div className="tech-grid">
         {Object.entries(groups).map(([name, items]) => (
           <section key={name} className="tech-group">
